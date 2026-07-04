@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://qb0cji46ybuc"]
+
+[node name="Plant" type="Area2D" unique_id=1636142527]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=683610242]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=557413792]
+
+[node name="GrowTimer" type="Timer" parent="." unique_id=729260760]
