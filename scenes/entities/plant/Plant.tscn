@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://qb0cji46ybuc"]
 
 [ext_resource type="Script" uid="uid://cowsfgm30t1o3" path="res://scripts/plant.gd" id="1_jmfqi"]
-[ext_resource type="Texture2D" uid="uid://klifq53dug0r" path="res://icon.svg" id="1_r0hpn"]
+[ext_resource type="Texture2D" uid="uid://ccp23bm04ky7w" path="res://assets/sprites/kenney_tiny_town/Tiles/tile_0025.png" id="2_jmfqi"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2wpl0"]
-size = Vector2(128, 125)
+size = Vector2(17, 16)
 
 [node name="Plant" type="Area2D" unique_id=1636142527]
 script = ExtResource("1_jmfqi")
@@ -12,10 +12,10 @@ script = ExtResource("1_jmfqi")
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=683610242]
 position = Vector2(0.5, -1)
 scale = Vector2(1.0078125, 0.984375)
-texture = ExtResource("1_r0hpn")
+texture = ExtResource("2_jmfqi")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=557413792]
-position = Vector2(0, 0.5)
+position = Vector2(0.5, -1)
 shape = SubResource("RectangleShape2D_2wpl0")
 
 [node name="GrowTimer" type="Timer" parent="." unique_id=729260760]
